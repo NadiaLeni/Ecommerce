@@ -1,0 +1,34 @@
+#setting {
+    padding-top: 15vh;
+}
+.nav-pp {
+    height: 2rem;
+    border-radius: 100px;
+    box-shadow: 0 0 3px grey;
+}
+.profile-sect {
+    margin-block: 3rem;
+}
+.img-profile {
+    height: 10rem;
+    border-radius: 100px;
+}
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    height: 10rem;
+    justify-content: center;
+    gap: 1rem;
+}
+.setting-form {
+    gap: 4rem;
+    margin-bottom: 3rem;
+}
+.setting-data input {
+    width: 15rem;
+    margin-top: .5rem;
+}
+.setting-data {
+    gap: 1.5rem;
+}

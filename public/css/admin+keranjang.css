@@ -1,0 +1,66 @@
+#produk {
+    padding-top: 15vh;
+}
+.produk-header {
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+.produk {
+    gap: 2.5rem;
+    margin-block: 1rem;
+    align-items: center;
+}
+.produk-img img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    height: 6rem; width: 6rem;
+    object-fit: cover;
+}
+.detail-nama {
+    margin-bottom: 1rem;
+}
+.detail-nama * {
+    margin-block: .2rem;
+}
+.detail-nama p:last-child {
+    width: fit-content;
+}
+.detail-harga {
+    align-items: center;
+    gap: 3rem;
+}
+.detail-harga p:first-child {
+    margin-right: 3rem;
+}
+.detail-harga p:nth-child(2) {
+    margin-right: -2rem;
+}
+.kode-barang, .produk-img {
+    width: 5rem;
+}
+
+/* Keranjang */
+.produk input[type="checkbox"] {
+    zoom: 2;
+    margin-left: 1rem;
+}
+.total-harga {
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    /* margin-right: 1rem; */
+}
+.transaksi-btn {
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+
+
+/* Transaksi */
+#pembayaran {
+    padding-top: 5rem;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+#pembayaran form {
+    gap: 2rem;
+}

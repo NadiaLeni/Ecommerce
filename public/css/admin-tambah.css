@@ -1,0 +1,69 @@
+form {
+    padding-top: 20vh;
+    justify-content: center;
+    gap: 3rem;
+}
+.form-left, .form-harga, .form-stok, .form-gambar, .form-right-bottom {
+    flex-direction: column;
+}
+.form-left {
+    /* width: 25rem; */
+    gap: 1.5rem;
+}
+textarea {
+    min-width: 53ch; max-width: 53ch;
+    min-height: 10ch; max-height: 20ch;
+}
+.form-left div, .form-right div {
+    gap: .5rem;
+}
+.form-name-desc {
+    flex-direction: column;
+}
+.form-left-bottom {
+    /* gap: 1rem; */
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Form-right */
+.form-gambar img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.form-gambar > div *{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.upload-img {
+    height: 5rem; width: 5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: var(--light-grey);
+}
+.upload-img-input {
+    height: 5rem; width: 5rem;
+    position: absolute;
+    opacity: 0;
+}
+.upload-img-input:hover {
+    cursor: pointer;
+}
+.form-right {
+    width: 20rem;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: gray; */
+}
+.form-right-bottom div {
+    margin-top: 1rem;
+}
+.form-publish {
+    display: flex;
+    align-items: center;
+}
+input[type=checkbox] {
+    transform: scale(1.3);
+}
