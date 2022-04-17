@@ -12,7 +12,7 @@
     <nav>
         <div class="nav-container">
             <div class="nav-left">
-                <a class="nav-logo" href="">Nama Toko</a>
+                <a class="nav-logo" href="">Shopperly</a>
                 <!-- <div class="nav-menu">
                     <a href="#">Produk</a>
                     <a href="#">Keranjang</a>
